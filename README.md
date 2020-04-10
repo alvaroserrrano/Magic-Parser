@@ -10,11 +10,11 @@ parser takes the included .csv file and outputs a sorted list of entries to a te
 Sorin, Vampire Lord              {4}{B}{B}
 Legendary Planeswalker — Sorin      mythic
 ------------------------------------------
-[+1]: Up to one target creature gets +2/+0 until end of turn.
-[−2]: Sorin, Vampire Lord deals 4 damage to any target. You gain 4 life.
-[−8]: Until end of turn, each Vampire you control gains "{T}: Gain control of target creature."
+Up to one target creature gets +2/+0 until end of turn.
+Sorin, Vampire Lord deals 4 damage to any target. You gain 4 life.
+Until end of turn, each Vampire you control gains "{T}: Gain control of target creature."
 ------------------------------------------
-                                         4
+                                         
  
 Roc Charger                         {2}{W}
 Creature — Bird                   uncommon
@@ -22,12 +22,12 @@ Creature — Bird                   uncommon
 Flying
 Whenever Roc Charger attacks, target attacking creature without flying gains flying until end of turn.
 ------------------------------------------
-                                       1/3
+                                       
 These are not sorted, just an example of the output format
 
 For the following records:
 
-#1109 192693,"Sorin, Vampire Lord","{4}{B}{B}",6,"Legendary Planeswalker — Sorin","[+1]: Up to one target creature gets +2/+0 until end of turn.\n[−2]: Sorin, Vampire Lord deals 4 damage to any target. You gain 4 life.\n[−8]: Until end of turn, each Vampire you control gains ""{T}: Gain control of target creature.""","4","mythic"
+#1109 192693,"Sorin, Vampire Lord","{4}{B}{B}",6,"Legendary Planeswalker — Sorin",": Up to one target creature gets +2/+0 until end of turn.\n: Sorin, Vampire Lord deals 4 damage to any target. You gain 4 life.\n: Until end of turn, each Vampire you control gains ""{T}: Gain control of target creature.""","4","mythic"
 #1112 176816,"Roc Charger","{2}{W}",3,"Creature — Bird","Flying\nWhenever Roc Charger attacks, target attacking creature without flying gains flying until end of turn.","1/3","uncommon"
 CSV Pitfalls
 There are some things to keep in mind with the included dataset:
