@@ -1,0 +1,6 @@
+*.o
+.vscode/*
+core
+source
+a2
+*.txt
